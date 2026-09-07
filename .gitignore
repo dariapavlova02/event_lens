@@ -1,0 +1,34 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.session
+*.session-journal
+
+# Local datasets and generated experiments
+/data/*
+!/data/README.md
+/multi_asset/output/
+/runs/
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.parquet
+
+# Environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+*.log
+
+# Local archives and generated figures
+/.local-archive/
+/results/*.png
+/results/*.pdf
